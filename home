@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>olá</title>
+      <meta charset="utf-8">
+         <link rel="stylesheet" href="stylesheet.css">
+         <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+<style type="text/css">
+
+h1 {
+  background-color: yellow
+}
+
+body {
+ font-family: 'Gotu', sans-serif;
+ background-color: #af9393;
+ width: 90%;
+ margin:auto;
+ margin-right: auto;
+}
+
+div{
+   word-wrap: break-word;
+   background-color: White;
+   border-color: black;
+   border: 5px solid;
+ }
+
+.botao {
+ text-decoration: none;
+ padding: 15px;
+ border: 1px solid black;
+ background: white;
+ color: black;
+ border-radius: 10px;
+ margin:auto;
+ margin-right: auto;
+}
+
+.botao:hover {
+ text-decoration: none;
+ border: 1px solid white;
+ background: black;
+ color: white;
+ margin:auto;
+ margin-right: auto;
+ }
+
+img {
+   width: 45%
+}
+
+figure {
+   border: 2px solid green;
+ }
+
+figcaption{
+    border: 2px solid yellow;
+    border width: 5%
+}
+</style>
+       </head>
+
+  <body>
+    <h1> seja bem vindo !!</h1>
+<div>
+
+   <h2> <p style="color: blue">este é um joguinho bem interessante</p> </h2>
+
+  <figure>
+ <a href="https://odia.ig.com.br/_midias/jpg/2020/01/02/unnamed__3__14920647-14985398.jpg"></a><img src="https://correio-cdn1.cworks.cloud/fileadmin/_processed_/4/b/csm_pericles_d712fbfe9e.jpg">
+<figcaption>o pélicres ajudará você</figcaption>
+  </figure>
+
+  este jogo é uma minohca bem legal, que dá pra desestressar facilmente, mas: <strong style= "color: red">ATENÇÃO, SE VOCÊ TEM FOTOFOBIA, ESTRABISMO OU ATAQUES DE EPLEPSIAS</strong><strong style= "color: #dc2e2e"> SAIA DAQUI DE IMEDIATO</strong> portanto, se não contêm, continue normamente
+
+  <h3>clique no qual é o aparelho que você está utilizando agora:</h3>
+
+<p id="demo"> <strong>windows</strong></p>
+<button autofocus; type="button"; onclick='document.getElementById("demo").innerHTML = "texto sobre  windows"'> <strong>clica aqui</strong></button>
+
+<p id="lala"> <strong>cell</strong></p>
+<button autofocus; type="button"; onclick='document.getElementById("lala").innerHTML = "texto sobre cell"'> <strong>clica aqui</strong></button>
+
+ <p><a class="botao" href="http://www.staggeringbeauty.com/" target="_blank">ouloko</a></p>
+    </div>
+  </body>
+</html>
